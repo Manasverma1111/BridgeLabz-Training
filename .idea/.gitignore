@@ -1,20 +1,8 @@
-# IntelliJ IDEA (ignore entire folder)
+# IntelliJ IDEA (entire project)
 .idea/
-
-# IntelliJ default ignored files (optional but safe)
 *.iml
-/shelf/
-/workspace.xml
-/httpRequests/
-/dataSources/
-/dataSources.local.xml
 
-# Eclipse (in case you use it again)
-.project
-.classpath
-.settings/
-
-# Build directories
+# Build output
 out/
 target/
 
