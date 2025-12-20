@@ -1,4 +1,4 @@
-# Daily Progress Log – BridgeLabz
+# Daily Progress Log – BridgeLabz (Capgemini Training)
 
 ## Overview
 
@@ -69,14 +69,15 @@ BridgeLabz-Training/
 
 - Completed Level 1 and Level 2 Programming Elements problems
 
-### 19-Dec-2025 (Friday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
+### 19-Dec-2025 (Friday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow/com/controlflow)
 
 - Studied Java history and features
 - Solved elementary Java problems
-
-### 20-Dec-2025 (Saturday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow/com/controlflow)
-
 - Completed Level 1, Level 2, and Level 3 Control Flow problems
+
+### 20-Dec-2025 (Saturday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays/com/arrays)
+
+- Completed Level 1, and Level 2 Array Problems
 
 ---
 
