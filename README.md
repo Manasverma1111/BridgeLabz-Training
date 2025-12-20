@@ -40,6 +40,8 @@ BridgeLabz-Training/
 |   |   +-- programming-elements/
 |   |   |
 |   |   +-- control-flow/
+|   |   |
+|   |   +-- arrays
 |   |
 |   +-- leet-code-codebase/
 |   |
