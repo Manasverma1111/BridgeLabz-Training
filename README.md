@@ -24,7 +24,7 @@ Each section highlights the learning objectives and tasks completed on specific 
 | Branch Name          | Purpose                                                                       |
 | -------------------- | ----------------------------------------------------------------------------- |
 | `main`               | Contains the main README and consolidated documentation                       |
-| `core-java-practice` | Contains Java practice programs, control flow problems, and daily assignments |
+| `core-java-practice` | Contains Java practice programs, and daily assignments |
 
 ---
 
@@ -41,7 +41,9 @@ BridgeLabz-Training/
 |   |   |
 |   |   +-- control-flow/
 |   |   |
-|   |   +-- arrays
+|   |   +-- arrays/
+|   |   |
+|   |   +-- string/
 |   |
 |   +-- leet-code-codebase/
 |   |
@@ -80,6 +82,12 @@ BridgeLabz-Training/
 ### 20-Dec-2025 (Saturday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays/com/arrays)
 
 - Completed Level 1, and Level 2 Array Problems
+
+## Week 2: Continuing with Java and Its Fundamentals
+
+### 22-Dec-2025 (Monday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/string/com/string)
+
+- Completed Level 1, and Level 2, and Level 3 String Problems
 
 ---
 
