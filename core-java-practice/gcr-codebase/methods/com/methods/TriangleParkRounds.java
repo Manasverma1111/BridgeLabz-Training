@@ -1,7 +1,7 @@
 package com.methods;
 import java.util.Scanner;
 
-public class TriangularParkRun {
+public class TriangleParkRounds {
 
     // Method to calculate number of rounds required
     public static double calculateRounds(double side1, double side2, double side3) {
