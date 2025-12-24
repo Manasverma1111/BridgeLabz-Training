@@ -1,4 +1,4 @@
-# Daily Progress Log – BridgeLabz (Capgemini Training)
+# Daily Progress Log – BridgeLabz Training
 
 ## Overview
 
@@ -24,7 +24,7 @@ Each section highlights the learning objectives and tasks completed on specific 
 | Branch Name          | Purpose                                                                       |
 | -------------------- | ----------------------------------------------------------------------------- |
 | `main`               | Contains the main README and consolidated documentation                       |
-| `core-java-practice` | Contains Java practice programs, and daily assignments |
+| `core-java-practice` | Contains Java practice programs, and daily assignments                        |
 
 ---
 
@@ -44,6 +44,8 @@ BridgeLabz-Training/
 |   |   +-- arrays/
 |   |   |
 |   |   +-- string/
+|   |   |
+|   |   +-- methods/
 |   |
 |   +-- leet-code-codebase/
 |   |
@@ -87,11 +89,19 @@ BridgeLabz-Training/
 
 ### 22-Dec-2025 (Monday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/string/com/string)
 
-- Completed Level 1, and Level 2, and Level 3 String Problems
+- Completed Level 1 String Problems
+
+### 23-Dec-2025 (Monday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/string/com/string)
+
+- Completed Level 2, and Level 3 String Problems
+
+### 24-Dec-2025 (Monday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods/com/methods)
+
+- Completed Level 1 Java Methods
 
 ---
 
 ## Author
 
 **Manas Verma**  
-BridgeLabz (Capgemini) Trainee
+BridgeLabz Trainee
