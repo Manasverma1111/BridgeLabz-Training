@@ -91,13 +91,17 @@ BridgeLabz-Training/
 
 - Completed Level 1 String Problems
 
-### 23-Dec-2025 (Monday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/string/com/string)
+### 23-Dec-2025 (Tuesday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/string/com/string)
 
 - Completed Level 2, and Level 3 String Problems
 
-### 24-Dec-2025 (Monday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods/com/methods)
+### 24-Dec-2025 (Wednesday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods/com/methods)
 
 - Completed Level 1 Java Methods
+
+### 25-Dec-2025 (Thursday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods/com/methods)
+
+- Completed Level 2 Java Methods
 
 ---
 
