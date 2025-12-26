@@ -101,7 +101,11 @@ BridgeLabz-Training/
 
 ### 25-Dec-2025 (Thursday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods/com/methods)
 
-- Completed Level 2 Java Methods
+- Completed Level 2, and Level 3 Java Methods
+
+### 26-Dec-2025 (Friday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/string/com/string)
+
+- Completed Practice Assignment String
 
 ---
 
