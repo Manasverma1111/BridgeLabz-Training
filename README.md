@@ -107,7 +107,11 @@ BridgeLabz-Training/
 
 - Completed Practice Assignment String
 
-### 28-Dec-2025 (Friday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
+### 27-Dec-2025 (Saturday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
+
+- Completed EXTRAS - Built-In Function Practice Problem
+
+### 28-Dec-2025 (Sunday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
 
 - Completed EXTRAS - Built-In Function Practice Problem
 
