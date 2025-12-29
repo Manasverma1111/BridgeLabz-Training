@@ -115,6 +115,10 @@ BridgeLabz-Training/
 
 - Completed EXTRAS - Built-In Function Practice Problem
 
+### 29-Dec-2025 (Monday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based/com/scenariobased)
+
+- Completed Scenario Based
+
 ---
 
 ## Author
