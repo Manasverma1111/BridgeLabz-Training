@@ -118,6 +118,7 @@ BridgeLabz-Training/
 ### 29-Dec-2025 (Monday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based/com/scenariobased)
 
 - Completed Scenario Based
+- Solved LeetCode Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)
 
 ---
 
