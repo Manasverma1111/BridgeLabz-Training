@@ -1,8 +1,8 @@
 import java.util.Stack;
 import java.util.Scanner;
 
-class validParenthesis {
-    public boolean isValid(String s) {
+public class ValidParenthesis {
+    public static boolean isValid(String s) {
         Stack<Character> stack = new Stack<Character>();
         for (char c : s.toCharArray()) {
             if (c == '(' || c == '[' || c == '{') {
@@ -23,18 +23,16 @@ class validParenthesis {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the string to validate:");
-        String input = scanner.nextLine();
+        String n = scanner.nextLine();
 
-        validParenthesis solution = new validParenthesis();
-        boolean result = solution.isValid(input);
+        boolean res = isValid(n);
 
-        if (result) {
+        if (res) {
             System.out.println("The string is valid.");
         } else {
             System.out.println("The string is not valid.");
         }
 
-        scanner.close();
     }
 }
 

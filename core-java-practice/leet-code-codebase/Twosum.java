@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-class twosum {
-    public int[] twoSum(int[] nums, int target) {
+public class Twosum {
+    public static int[] twoSum(int[] nums, int target) {
         int n = nums.length;
         for (int i = 0; i < n - 1; i++) {
             for (int j = i + 1; j < n; j++) {
@@ -14,36 +14,29 @@ class twosum {
     }
 
     public static void main(String[] args) {
+//        create scanner object
         Scanner scanner = new Scanner(System.in);
-
-        // Take input for the array length
+//        take input for the array length
         System.out.print("Enter the number of elements in the array: ");
         int n = scanner.nextInt();
 
-        // Initialize the array
         int[] nums = new int[n];
-
-        // Take input for the array elements
+//        take input for the array elements
         System.out.println("Enter the elements of the array:");
         for (int i = 0; i < n; i++) {
             nums[i] = scanner.nextInt();
         }
-
-        // Take input for the target value
+//        take input for the target value
         System.out.print("Enter the target value: ");
         int target = scanner.nextInt();
 
-        // Create an instance of Solution and call the twoSum method
-        twosum solution = new twosum();
-        int[] result = solution.twoSum(nums, target);
+        int[] res = twoSum(nums, target);
 
-        // Print the result
-        if (result.length == 0) {
+        if (res.length == 0) {
             System.out.println("No solution found.");
         } else {
-            System.out.println("Indices of the two numbers are: " + result[0] + " and " + result[1]);
+            System.out.println("Indices of the two numbers are: " + res[0] + " and " + res[1]);
         }
 
-        scanner.close();
     }
 }

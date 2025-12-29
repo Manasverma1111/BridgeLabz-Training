@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-class removeElement {
-    public int removeElmt(int[] nums, int val) {
+public class RemoveElement {
+    public static int removeElmt(int[] nums, int val) {
         int idx = 0;
         for(int i = 0; i < nums.length; i++){
             if(nums[i] != val){
@@ -13,8 +13,9 @@ class removeElement {
     }
 
     public static void main(String[] args) {
+//        create scanner object
         Scanner scanner = new Scanner(System.in);
-
+//        get input value for n and array
         System.out.println("Enter the number of elements in the array:");
         int n = scanner.nextInt();
 
@@ -27,8 +28,7 @@ class removeElement {
         System.out.println("Enter the value to remove:");
         int val = scanner.nextInt();
 
-        removeElement solution = new removeElement();
-        int newLength = solution.removeElmt(nums, val);
+        int newLength = removeElmt(nums, val);
 
         System.out.println("The new length of the array is: " + newLength);
         System.out.println("The modified array is:");
