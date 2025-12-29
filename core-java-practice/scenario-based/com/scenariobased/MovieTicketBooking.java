@@ -46,7 +46,7 @@ public class MovieTicketBooking {
             System.out.println("Movie Type  : " + movieType);
             System.out.println("Seat Type   : " + seatType);
             System.out.println("Snacks      : " + snacksChoice);
-            System.out.println("Total Amount: ₹" + totalBill);
+            System.out.println("Total Amount: " + totalBill);
         }
 
         System.out.println("\nAll bookings completed successfully.");
