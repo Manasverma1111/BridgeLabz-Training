@@ -21,10 +21,11 @@ Each section highlights the learning objectives and tasks completed on specific 
 
 ## Branch Information
 
-| Branch Name          | Purpose                                                                       |
-| -------------------- | ----------------------------------------------------------------------------- |
-| `main`               | Contains the main README and consolidated documentation                       |
-| `core-java-practice` | Contains Java practice programs, and daily assignments                        |
+| Branch Name          | Purpose                                                 |
+|----------------------|---------------------------------------------------------|
+| `main`               | Contains the main README and consolidated documentation |
+| `core-java-practice` | Contains Java practice programs, and daily assignments  |
+| `oops-practice`      | Contains OOPs practice programs, and daily assignments  |
 
 ---
 
@@ -50,6 +51,16 @@ BridgeLabz-Training/
 |   +-- leet-code-codebase/
 |   |
 |   +-- scenario-based/
+|
++-- oops-practice/(Branch & Folder Name)
+|   |
+|   +-- gcr-codebase/
+|   |   |
+|   |   +-- class-and-object
+|   |
+|   +-- leet-code-codebase/
+|   |
+|   +-- scenario-based
 |
 +-- README.md
 ```
@@ -121,6 +132,11 @@ BridgeLabz-Training/
 
 - Completed Scenario Based [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based/com/scenariobased)
 - Solved LeetCode Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)
+
+### 30-Dec-2025 (Tuesday)
+- Completed Scenario Based Snake and Ladder [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/blob/core-java-practice/core-java-practice/scenario-based/com/scenariobased/SnakenLadder.java)
+- Continuing with OOPs Concept
+- Completed Class and Object Assignment [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/class-and-object)
 
 ---
 
