@@ -138,6 +138,11 @@ BridgeLabz-Training/
 - Continuing with OOPs Concept
 - Completed Class and Object Assignment [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/class-and-object)
 
+### 31-Dec-2025 (Wednesday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/contructors-and-variables)
+- Completed Java Constructors, Instance vs. Class Variables, Access Modifiers Level 1
+
+### 01-Jan-2025 (Thursday)
+- Completed this, static, final keywords and instanceof operator Level 1 [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/javakeywords)
 ---
 
 ## Author
