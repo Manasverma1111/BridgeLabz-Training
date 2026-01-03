@@ -1,5 +1,3 @@
-// Library Management System – Book Search and Checkout
-
 class Bookss {
     String title;
     String author;
@@ -39,8 +37,7 @@ public class LibraryManagementSys {
             System.out.println("No books found.");
         }
     }
-
-    // Checkout a book
+//    checkout a book
     static void checkoutBook(Bookss[] books, String title) {
         for (Bookss book : books) {
             if (book.title.equalsIgnoreCase(title)) {

@@ -24,6 +24,7 @@ public class EduQuiz {
     }
 
     public static void main(String[] args) {
+
 //        correct answers
         String[] correctAnswers = {"A", "B", "C", "D", "A", "C", "B", "D", "A", "C"};
         // Student answers
