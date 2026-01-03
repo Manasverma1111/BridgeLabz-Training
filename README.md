@@ -141,8 +141,17 @@ BridgeLabz-Training/
 ### 31-Dec-2025 (Wednesday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/contructors-and-variables)
 - Completed Java Constructors, Instance vs. Class Variables, Access Modifiers Level 1
 
-### 01-Jan-2025 (Thursday)
+### 01-Jan-2026 (Thursday)
 - Completed this, static, final keywords and instanceof operator Level 1 [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/javakeywords)
+
+### 02-Jan-2026 (Friday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/uml-diagram)
+- Completed Object-Oriented Design Principles UML Diagrams
+- Solved Scenario Based [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
+### 03-Jan-2026 (Saturday)
+- Completed Inheritance Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/inheritance)
+- Solved Scenario Based [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
 ---
 
 ## Author
