@@ -56,11 +56,21 @@ BridgeLabz-Training/
 |   |
 |   +-- gcr-codebase/
 |   |   |
-|   |   +-- class-and-object
+|   |   +-- class-and-object/
+|   |   |
+|   |   +-- constructors-and-varaibles/
+|   |   |
+|   |   +-- inheritance/
+|   |   |
+|   |   +-- javakeywords/
+|   |   |
+|   |   +-- oops-pillars/
+|   |   |
+|   |   +-- uml-diagram/
 |   |
 |   +-- leet-code-codebase/
 |   |
-|   +-- scenario-based
+|   +-- scenario-based/
 |
 +-- README.md
 ```
