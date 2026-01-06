@@ -152,6 +152,10 @@ BridgeLabz-Training/
 - Completed Inheritance Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/inheritance)
 - Solved Scenario Based [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 
+### 05-Jan-2026 (Monday)
+- Completed Encapsulation, Polymorphism, Interface and Abstract Class Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/oops-pillars)
+- Solved Scenario Based [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
 ---
 
 ## Author
