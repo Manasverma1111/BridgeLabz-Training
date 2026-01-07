@@ -173,7 +173,7 @@ BridgeLabz-Training/
 - Solved Scenario Based [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 
 ### 07-Jan-2026 (Wednesday)
-- Solved Scenario Based [Click here for reference] (https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+- Solved Scenario Based [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 
 ---
 
