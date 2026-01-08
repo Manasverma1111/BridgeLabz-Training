@@ -60,6 +60,7 @@ class CircularTaskScheduler {
     }
 
     public void addAtPosition(int pos, int id, String name, int priority, String dueDate) {
+
         if (pos == 1) {
             addAtBeginning(id, name, priority, dueDate);
             return;
