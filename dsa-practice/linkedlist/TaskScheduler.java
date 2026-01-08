@@ -133,11 +133,7 @@ class CircularTaskScheduler {
 
         do {
             if (temp.priority == priority) {
-                System.out.println(
-                        temp.taskId + " | " +
-                                temp.taskName + " | Due: " +
-                                temp.dueDate
-                );
+                System.out.println(temp.taskId + " | " + temp.taskName + " | Due: " + temp.dueDate);
                 found = true;
             }
             temp = temp.next;
