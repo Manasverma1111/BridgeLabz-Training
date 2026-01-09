@@ -36,7 +36,7 @@ Each section highlights the learning objectives and tasks completed on specific 
 ```
 BridgeLabz-Training/
 |
-+---------------------------------------------------|
++---------------------------------------------------+
 |                                                   |
 +-- core-java-practice/(Branch & Folder Name)       +-- dsa-practice/(Branch & Folder Name)
 |   |                                               |   |
