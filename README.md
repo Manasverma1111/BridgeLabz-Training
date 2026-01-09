@@ -26,6 +26,8 @@ Each section highlights the learning objectives and tasks completed on specific 
 | `main`               | Contains the main README and consolidated documentation |
 | `core-java-practice` | Contains Java practice programs, and daily assignments  |
 | `oops-practice`      | Contains OOPs practice programs, and daily assignments  |
+| `dsa-practice`       | Contains DSA practice programs, and daily assignments   |
+
 
 ---
 
@@ -34,19 +36,21 @@ Each section highlights the learning objectives and tasks completed on specific 
 ```
 BridgeLabz-Training/
 |
-+-- core-java-practice/(Branch & Folder Name)
-|   |
-|   +-- gcr-codebase/
-|   |   |
-|   |   +-- programming-elements/
-|   |   |
-|   |   +-- control-flow/
-|   |   |
-|   |   +-- arrays/
-|   |   |
-|   |   +-- string/
-|   |   |
-|   |   +-- methods/
++---------------------------------------------------|
+|                                                   |
++-- core-java-practice/(Branch & Folder Name)       +-- dsa-practice/(Branch & Folder Name)
+|   |                                               |   |
+|   +-- gcr-codebase/                               |   +-- dsa-practice/
+|   |   |                                           |   |   |
+|   |   +-- programming-elements/                   |   |   +-- linkedlist/
+|   |   |                                           |   |   |
+|   |   +-- control-flow/                           |   |   +-- 
+|   |   |                                           |   |   |
+|   |   +-- arrays/                                 |   |   +-- 
+|   |   |                                           |   |   |
+|   |   +-- string/                                 |   |   +-- 
+|   |   |                                           |   |   |
+|   |   +-- methods/                                |   |   +-- 
 |   |
 |   +-- leet-code-codebase/
 |   |
@@ -93,9 +97,8 @@ BridgeLabz-Training/
 - Solved elementary problems from LeetCode [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)
 - Practiced Java input/output and conditionals
 
-### 18-Dec-2025 (Thursday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
-
-- Completed Level 1 and Level 2 Programming Elements problems
+### 18-Dec-2025 (Thursday) 
+- Completed Level 1 and Level 2 Programming Elements problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
 
 ### 19-Dec-2025 (Friday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow/com/controlflow)
 
@@ -141,8 +144,8 @@ BridgeLabz-Training/
 
 ### 29-Dec-2025 (Monday)
 
-- Completed Scenario Based [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based/com/scenariobased)
-- Solved LeetCode Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)
+- Solved Scenario Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based/com/scenariobased)
+- Solved LeetCode Questions [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)
 
 ### 30-Dec-2025 (Tuesday)
 - Completed Scenario Based Snake and Ladder [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/blob/core-java-practice/core-java-practice/scenario-based/com/scenariobased/SnakenLadder.java)
@@ -157,23 +160,33 @@ BridgeLabz-Training/
 
 ### 02-Jan-2026 (Friday) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/uml-diagram)
 - Completed Object-Oriented Design Principles UML Diagrams
-- Solved Scenario Based [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+- Solved Scenario Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 
 ### 03-Jan-2026 (Saturday)
 - Completed Inheritance Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/inheritance)
-- Solved Scenario Based [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+- Solved Scenario Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 
 ## Week 4: Continuing with Core Java, OOPs Principles, and Scenario Based Problems
 
 ### 05-Jan-2026 (Monday)
 - Completed Encapsulation, Polymorphism, Interface and Abstract Class Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/oops-pillars)
-- Solved Scenario Based [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+- Solved Scenario Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 
 ### 06-Jan-2026 (Tuesday)
-- Solved Scenario Based [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+- Solved Scenario Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+- - Solved LeetCode Questions [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
 
 ### 07-Jan-2026 (Wednesday)
-- Solved Scenario Based [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+- Solved Scenario Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+- Solved LeetCode Questions [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
+
+### 08-Jan-2026 (Thursday)
+- Solved DSA Practice Problems (LinkedList) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/dsa-practice/dsa-practice/linkedlist)
+- Solved LeetCode Questions [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
+
+### 09-Jan-2026 (Friday)
+- Solved OOPs Scenario Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+- Solved LeetCode Questions [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
 
 ---
 
