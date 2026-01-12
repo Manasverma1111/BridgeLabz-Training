@@ -42,6 +42,7 @@ public class AddTwoArrays {
         int[] arr2 = {7, 6, 5};
 
         int[] sum = addArrays(arr1, arr2);
+
         System.out.println(Arrays.toString(sum));
     }
 }
