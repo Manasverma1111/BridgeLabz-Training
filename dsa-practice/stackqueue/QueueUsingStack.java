@@ -48,7 +48,6 @@ class QueueUsingStack {
         System.out.println(q.deQueue()); // 20
 
         q.enQueue(40);
-
         System.out.println(q.deQueue()); // 30
         System.out.println(q.peek());    // 40
     }
