@@ -44,9 +44,9 @@ BridgeLabz-Training/
 |   |   |                                           |   |   |
 |   |   +-- programming-elements/                   |   |   +-- linkedlist/
 |   |   |                                           |   |   |
-|   |   +-- control-flow/                           |   |   +-- 
+|   |   +-- control-flow/                           |   |   +-- hashmap/
 |   |   |                                           |   |   |
-|   |   +-- arrays/                                 |   |   +-- 
+|   |   +-- arrays/                                 |   |   +-- stackqueue/
 |   |   |                                           |   |   |
 |   |   +-- string/                                 |   |   +-- 
 |   |   |                                           |   |   |
@@ -174,7 +174,7 @@ BridgeLabz-Training/
 
 ### 06-Jan-2026 (Tuesday)
 - Solved Scenario Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
-- - Solved LeetCode Questions [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
+- Solved LeetCode Questions [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
 
 ### 07-Jan-2026 (Wednesday)
 - Solved Scenario Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
@@ -187,6 +187,16 @@ BridgeLabz-Training/
 ### 09-Jan-2026 (Friday)
 - Solved OOPs Scenario Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 - Solved LeetCode Questions [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
+
+## Week 5: Continuing with Core Java, OOPs Principles, and DSA Based Practice Problems
+
+### 12-Jan-2026 (Monday)
+- Solved OOPs Scenario Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
+### 13-Jan-2026 (Tuesday)
+- Solved DSA Practice Problems (Stack & Queue) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/dsa-practice/dsa-practice/stackqueue)
+- Solved DSA Practice Problems (HashMap) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/dsa-practice/dsa-practice/hashmap)
+
 
 ---
 
