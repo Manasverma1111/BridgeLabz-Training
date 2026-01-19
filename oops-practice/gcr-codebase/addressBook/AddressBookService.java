@@ -44,5 +44,18 @@ public class AddressBookService {
                 .sorted(Comparator.comparing(Contact::getFirstName))
                 .collect(Collectors.toList());
     }
+
+/*
+Use Case 8
+Ability to search Person in a City or State
+across multiple Address Books
+ */
+    public List<Contact> searchByCityOrState(String city, String state) {
+
+        return dao.getAllAddressBooks().stream().flatMap(book -> book.getContacts().stream()).filter(
+                contact -> (city != null && contact.getCity().equalsIgnoreCase(city)) ||
+                                (state != null && contact.getState().equalsIgnoreCase(state))).collect(Collectors.toList());
+    }
+
 }
 
