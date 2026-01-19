@@ -25,7 +25,6 @@ public class AddressBookDAO {
     public void addContact(String bookName, Contact contact) {
         addressBookMap.get(bookName).getContacts().add(contact);
     }
-
 /*
 Use Case 4
 Ability to delete a person using person's name
