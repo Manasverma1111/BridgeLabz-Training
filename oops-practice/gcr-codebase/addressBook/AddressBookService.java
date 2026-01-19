@@ -8,6 +8,11 @@ Use Case 7
 Ability to ensure there is
 no Duplicate Entry of the same
 Person in a particular Address
+
+Use Case 11
+Ability to sort the entries in the
+address book alphabetically by
+Person’s name
  */
 public class AddressBookService {
 
