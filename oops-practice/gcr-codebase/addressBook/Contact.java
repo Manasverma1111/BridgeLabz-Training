@@ -1,7 +1,11 @@
 package addressBook;
 import java.util.Objects;
 
-//Use Case 1
+/*
+Use Case 1
+Ability to create a Contacts in Address Book with first and last names,
+address, city, state, zip, phone number and email...
+*/
 public class Contact {
     private String firstName;
     private String lastName;
