@@ -71,8 +71,7 @@ BridgeLabz-Training/
 |   |   +-- oops-pillars/
 |   |   |
 |   |   +-- uml-diagram/
-|   |   |
-|   |   +-- 
+|   |   
 |   +-- leet-code-codebase/
 |   |
 |   +-- scenario-based/
