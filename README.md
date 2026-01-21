@@ -21,12 +21,14 @@ Each section highlights the learning objectives and tasks completed on specific 
 
 ## Branch Information
 
-| Branch Name          | Purpose                                                 |
-|----------------------|---------------------------------------------------------|
-| `main`               | Contains the main README and consolidated documentation |
-| `core-java-practice` | Contains Java practice programs, and daily assignments  |
-| `oops-practice`      | Contains OOPs practice programs, and daily assignments  |
-| `dsa-practice`       | Contains DSA practice programs, and daily assignments   |
+| Branch Name           | Purpose                                                       |
+|-----------------------|---------------------------------------------------------------|
+| `main`                | Contains the main README and consolidated documentation       |
+| `core-java-practice`  | Contains Java practice programs, and daily assignments        |
+| `oops-practice`       | Contains OOPs practice programs, and daily assignments        |
+| `dsa-practice`        | Contains DSA practice programs, and daily assignments         |
+| `collection-practice` | Contains Collections practice programs, and daily assignments |
+| `review`              | Contains Review practice programs                             |  
 
 
 ---
@@ -35,29 +37,27 @@ Each section highlights the learning objectives and tasks completed on specific 
 
 ```
 BridgeLabz-Training/
-|
-+---------------------------------------------------+
-|                                                   |
-+-- core-java-practice/(Branch & Folder Name)       +-- dsa-practice/(Branch & Folder Name)
-|   |                                               |   |
-|   +-- gcr-codebase/                               |   +-- dsa-practice/
-|   |   |                                           |   |   |
-|   |   +-- programming-elements/                   |   |   +-- linkedlist/
-|   |   |                                           |   |   |
-|   |   +-- control-flow/                           |   |   +-- hashmap/
-|   |   |                                           |   |   |
-|   |   +-- arrays/                                 |   |   +-- stackqueue/
-|   |   |                                           |   |   |
-|   |   +-- string/                                 |   |   +-- 
-|   |   |                                           |   |   |
-|   |   +-- methods/                                |   |   +-- 
-|   |
-|   +-- leet-code-codebase/
-|   |
-|   +-- scenario-based/
-|
-+-- oops-practice/(Branch & Folder Name)
-|   |
+|                                                   
++-- core-java-practice/(Branch & Folder Name)       
+|   |                                               
+|   +-- gcr-codebase/                               
+|   |   |                                           
+|   |   +-- programming-elements/                   
+|   |   |                                           
+|   |   +-- control-flow/                           
+|   |   |                                           
+|   |   +-- arrays/                                 
+|   |   |                                           
+|   |   +-- string/                                 
+|   |   |                                           
+|   |   +-- methods/                                
+|   |                                              
+|   +-- leet-code-codebase/                         
+|   |                                               
+|   +-- scenario-based/                             
+|                                                   
++-- oops-practice/(Branch & Folder Name             
+|   |                                               
 |   +-- gcr-codebase/
 |   |   |
 |   |   +-- class-and-object/
@@ -76,7 +76,35 @@ BridgeLabz-Training/
 |   +-- leet-code-codebase/
 |   |
 |   +-- scenario-based/
-|
+|   |
++-- dsa-practice/(Branch & Folder Name)
+|   |
+|   +-- linkedlist/
+|   |
+|   +-- hashmap/
+|   |
+|   +-- stackqueue/
+|   |
+|   +-- linear_binary_search
+|   |
+|   +-- runtime_analysis
+|   |
+|   +-- sortingAlgorithms
+|   |
++-- collection-practice/(Branch & Folder Name)
+|   |
+|   +-- gcr-codebase/
+|   |   |
+|   |   +-- generics/
+|   |   |
+|   |   +-- interfaces/
+|   |   |
+|   |   +-- 
+|   |   |
+|   |   +--
+|   |   |
++-- review/(Branch & Folder Name)
+|   |
 +-- README.md
 ```
 
@@ -202,7 +230,27 @@ BridgeLabz-Training/
 
 ### 15-Jan-2026 (Thursday)
 - Solved DSA Practice Problems (Sorting Algorithms) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/dsa-practice/dsa-practice/sortingAlgorithms)
- 
+
+### 16-Jan-2026 (Friday)
+- Solved DSA Practice Problems (Linear & Binary Search) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/dsa-practice/dsa-practice/linear_binary_search)
+
+### 17-Jan-2026 (Saturday)
+- Solved DSA Practice Problems (Runtime Analysis & Big-O Notation) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/dsa-practice/dsa-practice/runtime_analysis)
+- Solved OOPs Scenario Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
+## Week 6: Continuing with Java , OOPs Principles, and DSA Based Practice Problems
+
+### 19-Jan-2026 (Monday)
+- Solved Java (Generics) Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/generics)
+- Solved OOPs & DSA Scenario Based Practice Problem [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
+### 20-Jan-2026 (Tuesday)
+- Completed Java (Generics) Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/generics)
+- Solved DSA Scenario Based Practice Problem [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
+### 21-Jan-2026 (Wednesday)
+- Solved Java (Collections) List, Set, Queue & Map Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/interfaces)
+- Solved DSA Scenario Based Practice Problem
 
 ---
 
