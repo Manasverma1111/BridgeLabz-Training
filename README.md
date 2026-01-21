@@ -76,7 +76,7 @@ BridgeLabz-Training/
 |   +-- leet-code-codebase/
 |   |
 |   +-- scenario-based/
-|   |
+|   
 +-- dsa-practice/(Branch & Folder Name)
 |   |
 |   +-- linkedlist/
@@ -90,7 +90,7 @@ BridgeLabz-Training/
 |   +-- runtime_analysis
 |   |
 |   +-- sortingAlgorithms
-|   |
+|   
 +-- collection-practice/(Branch & Folder Name)
 |   |
 |   +-- gcr-codebase/
@@ -102,7 +102,7 @@ BridgeLabz-Training/
 |   |   +-- 
 |   |   |
 |   |   +--
-|   |   |
+|   |   
 +-- review/(Branch & Folder Name)
 |   |
 +-- README.md
