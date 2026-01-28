@@ -2,8 +2,7 @@
 
 ## Overview
 
-This repository documents the **daily progress of tasks completed during the BridgeLabz Training Program**  
-**Training ID:**
+This repository documents the **daily progress of tasks completed during the BridgeLabz Training Program**
 
 The progress is recorded week-wise and day-wise, focusing on **Java fundamentals, problem-solving, and programming concepts**.  
 Each section highlights the learning objectives and tasks completed on specific dates.
@@ -268,8 +267,7 @@ BridgeLabz-Training/
 
 ### 28-Jan-2026 (Wednesday)
 - Solved Lexical Twist Scenario Based Ques [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/blob/collection-practice/collection-practice/scenario-based/LexicalTwist.java)
-
-
+- Solved Scenario Based Ques [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based)
 
 ---
 
