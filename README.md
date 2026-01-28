@@ -97,10 +97,12 @@ BridgeLabz-Training/
 |   |   |
 |   |   +-- interfaces/
 |   |   |
-|   |   +-- 
+|   |   +-- java_streams/
 |   |   |
 |   |   +--
-|   |   
+|   |
+|   +-- scenario-based/
+|   | 
 +-- review/(Branch & Folder Name)
 |   |
 +-- README.md
