@@ -99,7 +99,7 @@ BridgeLabz-Training/
 |   |   |
 |   |   +-- java_streams/
 |   |   |
-|   |   +--
+|   |   +-- exception/
 |   |
 |   +-- scenario-based/
 |   | 
