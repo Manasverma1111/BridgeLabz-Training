@@ -250,7 +250,7 @@ BridgeLabz-Training/
 
 ### 21-Jan-2026 (Wednesday)
 - Solved Java (Collections) List, Set, Queue & Map Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/interfaces)
-- Solved DSA Scenario Based Practice Problem
+- Solved DSA Scenario Based Practice Problem [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based)
 
 ### 22-Jan-2026 (Thursday)
 - Solved Java (Collections) List, Set, Queue & Map Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/interfaces)
@@ -259,10 +259,13 @@ BridgeLabz-Training/
 - Solved Java (Collections) List, Set, Queue & Map Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/interfaces)
 - Solved Collections Scenario Based Ques [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based)
 
+### 24-jan-2026 (Saturday)
+- Solved Java Stream Ques [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/java_streams)
+
 ## Week 7: Continuing with Java (Collections, Streams) , OOPs Principles, and DSA Based Practice Problems
 
 ### 26-Jan-2026 (Monday)
-- Solved Java Stream Ques [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/java_streams)
+- Completed Java Stream Ques [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/java_streams)
 
 ### 27-Jan-2026 (Tuesday)
 - Solved Exception Handling Ques [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/exceptions)
