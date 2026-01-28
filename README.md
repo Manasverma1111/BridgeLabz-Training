@@ -104,7 +104,7 @@ BridgeLabz-Training/
 |   +-- scenario-based/
 |   | 
 +-- review/(Branch & Folder Name)
-|   |
+|   
 +-- README.md
 ```
 
