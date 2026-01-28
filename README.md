@@ -237,7 +237,7 @@ BridgeLabz-Training/
 - Solved DSA Practice Problems (Runtime Analysis & Big-O Notation) [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/dsa-practice/dsa-practice/runtime_analysis)
 - Solved OOPs Scenario Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 
-## Week 6: Continuing with Java , OOPs Principles, and DSA Based Practice Problems
+## Week 6: Continuing with Java (Collections) , OOPs Principles, and DSA Based Practice Problems
 
 ### 19-Jan-2026 (Monday)
 - Solved Java (Generics) Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/generics)
@@ -250,6 +250,26 @@ BridgeLabz-Training/
 ### 21-Jan-2026 (Wednesday)
 - Solved Java (Collections) List, Set, Queue & Map Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/interfaces)
 - Solved DSA Scenario Based Practice Problem
+
+### 22-Jan-2026 (Thursday)
+- Solved Java (Collections) List, Set, Queue & Map Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/interfaces)
+
+### 23-Jan-2026 (Friday)
+- Solved Java (Collections) List, Set, Queue & Map Based Practice Problems [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/interfaces)
+- Solved Collections Scenario Based Ques [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based)
+
+## Week 7: Continuing with Java (Collections, Streams) , OOPs Principles, and DSA Based Practice Problems
+
+### 26-Jan-2026 (Monday)
+- Solved Java Stream Ques [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/java_streams)
+
+### 27-Jan-2026 (Tuesday)
+- Solved Exception Handling Ques [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/exceptions)
+
+### 28-Jan-2026 (Wednesday)
+- Solved Lexical Twist Scenario Based Ques [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/blob/collection-practice/collection-practice/scenario-based/LexicalTwist.java)
+
+
 
 ---
 
