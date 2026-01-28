@@ -59,9 +59,7 @@ class Restaurant {
     }
 
     void cancelReservation(int tableNumber, String timeSlot) {
-        boolean removed = reservationList.removeIf(
-                r -> r.tableNumber == tableNumber &&
-                        r.timeSlot.equals(timeSlot));
+        boolean removed = reservationList.removeIf(r -> r.tableNumber == tableNumber && r.timeSlot.equals(timeSlot));
 
         if (removed) {
             System.out.println("Reservation cancelled for table " +
@@ -78,8 +76,7 @@ class Restaurant {
             boolean booked = false;
 
             for (Reservation r : reservationList) {
-                if (r.tableNumber == tableNumber &&
-                        r.timeSlot.equals(timeSlot)) {
+                if (r.tableNumber == tableNumber && r.timeSlot.equals(timeSlot)) {
                     booked = true;
                     break;
                 }
