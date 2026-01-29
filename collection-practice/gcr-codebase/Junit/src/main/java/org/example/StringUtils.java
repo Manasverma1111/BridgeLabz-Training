@@ -1,8 +1,5 @@
 package Junit.src.main.java.org.example;
 
-import java.util.Arrays;
-import java.util.Collections;
-
 public class StringUtils {
 
     public static String reverseString(String str) {

@@ -2,7 +2,6 @@ package Junit.src.test.java;
 
 import Junit.src.main.java.org.example.StringUtils;
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class StringUtilsTest {
