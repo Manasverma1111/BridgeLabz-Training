@@ -1,5 +1,4 @@
 package Junit.src.main.java.org.example;
-
 import java.util.List;
 
 public class ListManager {
