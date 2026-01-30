@@ -37,4 +37,3 @@ class DateFormatterTest {
                 () -> DateFormatter.formatDate(null));
     }
 }
-
