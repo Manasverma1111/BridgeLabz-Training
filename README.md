@@ -285,7 +285,7 @@ BridgeLabz-Training/
 - Solved Java Reflections Ques [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/reflection)
 - Solved Java Annotations Ques [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/annotation)
 
-## Week 7: Continuing with Java8 Features , OOPs Principles, and DSA Based Practice Problems
+## Week 8: Continuing with Java8 Features , OOPs Principles, and DSA Based Practice Problems
 
 ### 2-Feb-2026 (Monday)
 - Solved Java Stream API Ques [Click here for reference](https://github.com/Manasverma1111/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/streamAPI)
