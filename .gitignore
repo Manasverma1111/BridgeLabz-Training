@@ -9,3 +9,13 @@
 .idea/
 out/
 *.iml
+/buffered_copy.dat
+/unbuffered_copy.dat
+/employee.csv
+/employees.ser
+/ipl.csv
+/ipl.json
+/ipl_censored.csv
+/ipl_censored.json
+/students.csv
+/user_details.txt
