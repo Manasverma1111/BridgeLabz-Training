@@ -10,7 +10,6 @@ class EventFeedback {
 
     private Map<String, List<Integer>> feedbackMap = new HashMap<>();
 
-    // Add rating to an event
     public void addRating(String eventId, int rating) throws InvalidRatingException {
         if (rating < 1 || rating > 5) {
             throw new InvalidRatingException("Rating must be between 1 and 5");
