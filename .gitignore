@@ -1,13 +1,43 @@
-# Default ignored files
-/shelf/
+# ===============================
+# IntelliJ / IDE files
+# ===============================
+.idea/
+*.iml
 /workspace.xml
-# Editor-based HTTP Client requests
+/shelf/
+
+# ===============================
+# Build / Output directories
+# ===============================
+out/
+
+# ===============================
+# HTTP Client (IntelliJ)
+# ===============================
 /httpRequests/
-# Datasource local storage ignored files
+
+# ===============================
+# Datasource files
+# ===============================
 /dataSources/
 /dataSources.local.xml
-.idea/
-out/
-*.iml
+
+# ===============================
+# Generated / Temporary files
+# ===============================
 output.txt/
 README.md/
+
+# ===============================
+# Core Java practice files
+# ===============================
+/buffered_copy.dat
+/unbuffered_copy.dat
+/employee.csv
+/employees.ser
+/ipl.csv
+/ipl.json
+/ipl_censored.csv
+/ipl_censored.json
+/students.csv
+/user_details.txt
