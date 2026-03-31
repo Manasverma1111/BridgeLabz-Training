@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Steve Rogers",
+    "age": 20,
+    "subjects": ["Java", "Spring Boot"]
+  },
+  {
+    "name": "Bruce Banner",
+    "age": 22,
+    "subjects": ["React", "Node.js", "MongoDB"]
+  }
+]
