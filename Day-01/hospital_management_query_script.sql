@@ -829,10 +829,6 @@ LEFT JOIN appointments a
 GROUP BY d.doctor_id, d.doctor_name;
 
 
-/* ============================================================
-   46. DUPLICATE RECORD QUERIES
-   ============================================================ */
-
 -- Find duplicate patient phone numbers
 SELECT
     phone,
@@ -842,10 +838,7 @@ GROUP BY phone
 HAVING COUNT(*) > 1;
 
 
-/* ============================================================
-   47. RANKING - WINDOW FUNCTIONS (MySQL 8+)
-   ============================================================ */
-
+--
 SELECT
     doctor_name,
     salary,
@@ -864,11 +857,7 @@ SELECT
 
 FROM doctors;
 
-
-/* ============================================================
-   48. RANK WITHIN EACH DEPARTMENT
-   ============================================================ */
-
+--
 SELECT
     doctor_name,
     department_id,
@@ -882,26 +871,11 @@ SELECT
 FROM doctors;
 
 
-/* ============================================================
-   49. CTE - COMMON TABLE EXPRESSION (MySQL 8+)
-   ============================================================ */
-
-WITH high_salary_doctors AS (
-
-    SELECT *
-    FROM doctors
-    WHERE salary > 80000
-
-)
-
 SELECT *
 FROM high_salary_doctors;
 
 
-/* ============================================================
-   50. FINAL JOIN EXAMPLE
-   ============================================================ */
-
+--
 SELECT
     p.patient_name        AS patient,
     p.age,
