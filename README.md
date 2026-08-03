@@ -45,8 +45,7 @@ A **Database Management System (DBMS)** is software used to create, manage, and 
 - Query execution plans using `EXPLAIN`
 - SQL query optimization
 
-
-## Key Concepts Practice
+### Key Concepts Practiced
 
 - Extended the **Health Clinic** database schema by adding:
   - `rooms` table
