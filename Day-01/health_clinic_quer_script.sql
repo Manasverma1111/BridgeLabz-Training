@@ -5,7 +5,6 @@ CREATE DATABASE health_clinic;
 
 USE health_clinic;
 
--- Show current database
 SELECT DATABASE();
 
 -- 2. CREATE TABLES - DDL
