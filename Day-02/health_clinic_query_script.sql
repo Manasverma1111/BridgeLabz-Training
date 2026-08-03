@@ -707,7 +707,7 @@ FROM doctor_department_view;
 -- Delete view
 DROP VIEW doctor_department_view;
 
--- 
+--
 START TRANSACTION;
 
 UPDATE doctors
@@ -992,3 +992,24 @@ FROM appointments a
 WHERE a.status = 'Scheduled'
 
 ORDER BY a.appointment_date;
+
+
+-- Single-column index
+CREATE INDEX idx_appointment_date
+    ON appointments(appointment_date);
+
+-- Composite index
+CREATE INDEX idx_doctor_date
+    ON appointments(doctor_id, appointment_date);
+
+-- without using an index
+EXPLAIN
+SELECT *
+FROM appointments
+WHERE status = 'Scheduled';
+
+-- using a single-column index
+EXPLAIN
+SELECT *
+FROM appointments
+WHERE appointment_date = '2026-08-01 10:00:00';
