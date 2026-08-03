@@ -1077,3 +1077,16 @@ FROM patients p
          JOIN patient_phones pp
               ON p.patient_id = pp.patient_id
 ORDER BY p.patient_id;
+
+-- create the covering index
+CREATE INDEX idx_covering_appointments
+    ON appointments (doctor_id, appointment_date, status);
+
+-- EXPLAIN
+EXPLAIN
+SELECT
+    doctor_id,
+    appointment_date,
+    status
+FROM appointments
+WHERE doctor_id = 1;
