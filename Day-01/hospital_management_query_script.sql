@@ -3,10 +3,7 @@
 CREATE DATABASE health_clinic;
 
 
--- Create only if it doesn't already exist
-CREATE DATABASE IF NOT EXISTS hospital_management;
-
-USE hospital_management;
+USE health_clinic;
 
 -- Show current database
 SELECT DATABASE();
