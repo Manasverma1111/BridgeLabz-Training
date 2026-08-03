@@ -1020,3 +1020,60 @@ SELECT *
 FROM appointments
 WHERE doctor_id = 1
   AND appointment_date = '2026-08-02 09:30:00';
+
+--
+CREATE TABLE patient_phones (
+                                phone_id INT AUTO_INCREMENT PRIMARY KEY,
+                                patient_id INT NOT NULL,
+                                phone_number VARCHAR(15) NOT NULL UNIQUE,
+                                phone_type ENUM('Home', 'Mobile', 'Work', 'Emergency') DEFAULT 'Mobile',
+
+                                CONSTRAINT fk_patient_phone
+                                    FOREIGN KEY (patient_id)
+                                        REFERENCES patients(patient_id)
+                                        ON DELETE CASCADE
+                                        ON UPDATE CASCADE
+);
+
+--
+INSERT INTO patient_phones (patient_id, phone_number, phone_type)
+VALUES
+    (1, '9000000001', 'Mobile'),
+    (1, '9000001001', 'Home'),
+    (2, '9000000002', 'Mobile'),
+    (3, '9000000003', 'Mobile'),
+    (3, '9000001003', 'Emergency'),
+    (4, '9000000004', 'Mobile'),
+    (5, '9000000005', 'Mobile');
+
+SELECT *
+FROM patient_phones;
+
+/*
+Justification:
+The table satisfies 1NF because every field stores a single value,
+and each patient-phone combination is stored as a separate row.
+*/
+
+/*
+Justification:
+The table satisfies 2NF because it contains only key attributes.
+There are no partial dependencies on either patient_id or phone_number.
+*/
+
+/*
+Justification:
+The table satisfies 3NF because it has no non-key attributes.
+The only data stored is the relationship between a patient and a phone number,
+so there are no transitive dependencies.
+*/
+
+SELECT
+    p.patient_id,
+    p.patient_name,
+    pp.phone_number,
+    pp.phone_type
+FROM patients p
+         JOIN patient_phones pp
+              ON p.patient_id = pp.patient_id
+ORDER BY p.patient_id;
