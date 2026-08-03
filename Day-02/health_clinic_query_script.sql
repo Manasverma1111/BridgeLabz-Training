@@ -1013,3 +1013,10 @@ EXPLAIN
 SELECT *
 FROM appointments
 WHERE appointment_date = '2026-08-01 10:00:00';
+
+-- using the composite index
+EXPLAIN
+SELECT *
+FROM appointments
+WHERE doctor_id = 1
+  AND appointment_date = '2026-08-02 09:30:00';
