@@ -104,3 +104,53 @@ A **Database Management System (DBMS)** is software used to create, manage, and 
 - Automated database actions using `BEFORE` and `AFTER` triggers.
 - Practiced SQL joins to retrieve related data from multiple tables.
 - Compared different join types and understood their use cases.
+
+# Day-04: JDBC Core & Database Connectivity
+
+### 📚 Topics Covered
+
+#### JDBC Core
+- JDBC Architecture – Structure for Java–database communication.
+- JDBC Drivers – Enable communication with specific databases.
+- DriverManager – Manages JDBC drivers and connections.
+- Connection – Represents a database connection.
+- Statement – Executes static SQL queries.
+- PreparedStatement – Executes parameterized SQL queries securely.
+- CallableStatement – Executes stored procedures.
+- ResultSet – Holds query results.
+
+#### JDBC Workflow
+- Database Connection
+- Driver Loading
+- Connection URL
+- Properties
+- Singleton Connection – Single shared database connection.
+
+#### CRUD Operations
+- INSERT – Add records.
+- SELECT – Retrieve records.
+- UPDATE – Modify records.
+- DELETE – Remove records.
+
+#### Security & Transactions
+- PreparedStatement vs Statement
+- SQL Injection Prevention
+- Performance Comparison
+- ACID Properties
+- Commit
+- Rollback
+- Savepoints
+
+#### Connection Pooling
+- HikariCP – High-performance JDBC connection pool.
+
+#### Best Practices
+- Try-with-Resources
+- Batch Processing
+- Exception Handling
+- DTO Pattern – Transfers data between layers.
+- DAO Pattern – Encapsulates database operations.
+
+### Key Concepts Practiced
+
+Learned JDBC fundamentals, database connectivity, CRUD operations, transaction management, connection pooling, and best practices for building secure and efficient Java database applications.
