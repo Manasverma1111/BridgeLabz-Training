@@ -1,6 +1,7 @@
 -- Health Clinic Console Application - Database Schema
 -- Modules: Patient, Doctor, Specialization, Appointment, Visit History, Billing
 
+
 DROP DATABASE IF EXISTS health_clinic_db;
 CREATE DATABASE health_clinic_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE health_clinic_db;
