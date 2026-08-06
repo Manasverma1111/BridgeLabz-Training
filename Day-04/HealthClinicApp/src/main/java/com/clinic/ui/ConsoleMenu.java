@@ -9,11 +9,7 @@ import java.sql.Timestamp;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- * Console UI layer -- menus, user input/output only.
- * Depends only on DAO interfaces and the AppointmentService; never writes
- * SQL or touches Connection/ResultSet objects directly.
- */
+
 public class ConsoleMenu {
 
     private final Scanner scanner = new Scanner(System.in);
@@ -58,9 +54,7 @@ public class ConsoleMenu {
         System.out.println("6. Exit");
     }
 
-    // ----------------------------------------------------------------------
     // Patient Module
-    // ----------------------------------------------------------------------
     private void patientModule() {
         System.out.println("\n-- Patient Module --");
         System.out.println("1. Add Patient  2. View All Patients  3. Update Patient  4. Deactivate Patient  5. Back");
@@ -129,9 +123,7 @@ public class ConsoleMenu {
         System.out.println(success ? "Patient deactivated (soft delete)." : "Deactivation failed.");
     }
 
-    // ----------------------------------------------------------------------
     // Doctor Module
-    // ----------------------------------------------------------------------
     private void doctorModule() {
         System.out.println("\n-- Doctor Module --");
         System.out.println("1. Add Doctor  2. View All Doctors  3. Deactivate Doctor  4. Back");
@@ -180,9 +172,7 @@ public class ConsoleMenu {
         System.out.println(success ? "Doctor deactivated (soft delete)." : "Deactivation failed.");
     }
 
-    // ----------------------------------------------------------------------
     // Specialization Module
-    // ----------------------------------------------------------------------
     private void specializationModule() {
         System.out.println("\n-- Specialization Module --");
         System.out.println("1. Add Specialization  2. View All Specializations  3. Back");
@@ -216,9 +206,7 @@ public class ConsoleMenu {
         }
     }
 
-    // ----------------------------------------------------------------------
     // Appointment Module
-    // ----------------------------------------------------------------------
     private void appointmentModule() {
         System.out.println("\n-- Appointment Module --");
         System.out.println("1. Book Appointment  2. View All Appointments  3. Cancel Appointment  4. Back");
@@ -264,9 +252,7 @@ public class ConsoleMenu {
         System.out.println(success ? "Appointment cancelled." : "Cancel failed (not found or not in Scheduled state).");
     }
 
-    // ----------------------------------------------------------------------
     // Complete Appointment Module (Billing + Visit History, atomic transaction)
-    // ----------------------------------------------------------------------
     private void completeAppointmentModule() {
         System.out.println("\n-- Complete Appointment (Billing + Visit History) --");
         System.out.println("1. Complete Appointment  2. View All Billing  3. View All Visit History  4. Back");
@@ -313,9 +299,7 @@ public class ConsoleMenu {
         }
     }
 
-    // ----------------------------------------------------------------------
-    // Input helpers
-    // ----------------------------------------------------------------------
+
     private int readInt(String prompt) {
         while (true) {
             System.out.print(prompt);
