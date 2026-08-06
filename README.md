@@ -154,3 +154,39 @@ A **Database Management System (DBMS)** is software used to create, manage, and 
 ### Key Concepts Practiced
 
 Learned JDBC fundamentals, database connectivity, CRUD operations, transaction management, connection pooling, and best practices for building secure and efficient Java database applications.
+
+# Day-05: Spring MVC Fundamentals
+
+### 📚 Topics Covered
+
+- Spring MVC Architecture
+- DispatcherServlet
+- Controllers (`@Controller`)
+- Model
+- Spring Boot MVC Project
+- Request Lifecycle
+
+### 🚀 Project: My Greetings App
+
+Built a simple Spring Boot MVC application that accepts a user's name and displays a personalized greeting using Thymeleaf.
+
+### 🔹 Key Concepts Practiced
+
+- **Spring MVC Architecture** – Follows the Model-View-Controller pattern to separate application logic.
+- **DispatcherServlet** – Front controller that receives requests and routes them to the appropriate controller.
+- **Controller (`@Controller`)** – Handles HTTP requests and prepares data for the view.
+- **Views (Thymeleaf)** – Dynamic HTML templates used to render responses.
+- **`@GetMapping`** – Maps HTTP GET requests to controller methods.
+- **`@RequestParam`** – Retrieves query parameters from the request URL.
+- **Model** – Passes data from the controller to the view.
+- **Request Lifecycle** – Client Request → DispatcherServlet → Controller → Model → View → Response.
+
+### 💻 My Greetings App
+
+- Created a Spring Boot MVC application (`my-greetings-app`).
+- Configured the application using `@SpringBootApplication`.
+- Implemented a `GreetingController` with:
+  - `GET /` – Displays a form (`index.html`) to enter a name.
+  - `GET /greeting` – Reads the `name` parameter and displays a personalized greeting (`greeting.html`).
+- Used Thymeleaf templates to render dynamic content.
+- Gained hands-on experience with the complete Spring MVC request flow.
