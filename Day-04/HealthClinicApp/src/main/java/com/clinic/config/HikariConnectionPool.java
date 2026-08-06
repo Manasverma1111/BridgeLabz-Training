@@ -9,15 +9,6 @@ import java.sql.SQLException;
 
 /**
  * Centralized HikariCP connection pool for the Health Clinic application.
- *
- * Why HikariCP instead of a raw DriverManager/Singleton Connection:
- * Creating a raw JDBC connection is expensive (TCP handshake, auth handshake,
- * session initialization). HikariCP creates a fixed set of connections upfront
- * and lets DAO code borrow/return them, avoiding this repeated overhead and
- * making the application safe for concurrent (multi-threaded) use.
- *
- * connection.close() on a pooled connection does NOT close the physical
- * connection -- it returns it to the pool for reuse.
  */
 public final class HikariConnectionPool {
 
