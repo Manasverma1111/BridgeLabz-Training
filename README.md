@@ -164,9 +164,9 @@ Learned JDBC fundamentals, database connectivity, CRUD operations, transaction m
 - Spring IOC
 - Dependency Injection
 - Spring vs Spring Boot
-- Controllers
 - Model
-- View Controller
+- View
+- Controller
 
 ### 🚀 Project: My Greetings App
 
