@@ -172,7 +172,7 @@ Learned JDBC fundamentals, database connectivity, CRUD operations, transaction m
 
 Built a simple Spring Boot MVC application that accepts a user's name and displays a personalized greeting using Thymeleaf.
 
-### 🔹 Key Concepts Practiced
+### Key Concepts Practiced
 
 - **Spring MVC Architecture** – Follows the Model-View-Controller pattern to separate application logic.
 - **DispatcherServlet** – Front controller that receives requests and routes them to the appropriate controller.
