@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>My Greetings App</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <div class="card">
+        <h1>My Greetings App</h1>
+        <p>Enter your name and get a friendly greeting.</p>
+
+        <form action="#" th:action="@{/greeting}" method="get">
+            <input type="text" name="name" placeholder="Your name" required>
+            <button type="submit">Greet me</button>
+        </form>
+    </div>
+</body>
+</html>
