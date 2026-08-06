@@ -160,11 +160,13 @@ Learned JDBC fundamentals, database connectivity, CRUD operations, transaction m
 ### 📚 Topics Covered
 
 - Spring MVC Architecture
-- DispatcherServlet
-- Controllers (`@Controller`)
+- Tomcat Servlet
+- Spring IOC
+- Dependency Injection
+- Spring vs Spring Boot
+- Controllers
 - Model
-- Spring Boot MVC Project
-- Request Lifecycle
+- View Controller
 
 ### 🚀 Project: My Greetings App
 
