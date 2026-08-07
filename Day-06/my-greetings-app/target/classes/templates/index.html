@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>My Greetings App</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <div class="card">
+        <h1>My Greetings App</h1>
+
+        <!-- CREATE -->
+        <form th:action="@{/greetings}" method="post">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="text" name="message" placeholder="Message" required>
+            <button type="submit">Add greeting</button>
+        </form>
+
+        <!-- READ (list) -->
+        <ul class="greeting-list" th:if="${not #lists.isEmpty(greetings)}">
+            <li th:each="g : ${greetings}">
+                <a th:href="@{/greetings/{id}(id=${g.id})}" th:text="${g.name} + ': ' + ${g.message}">Name: Message</a>
+                <span class="actions">
+                    <a th:href="@{/greetings/{id}/edit(id=${g.id})}">Edit</a>
+                    <form th:action="@{/greetings/{id}/delete(id=${g.id})}" method="post">
+                        <button type="submit" class="link-btn">Delete</button>
+                    </form>
+                </span>
+            </li>
+        </ul>
+        <p th:if="${#lists.isEmpty(greetings)}">No greetings yet - add one above.</p>
+    </div>
+</body>
+</html>

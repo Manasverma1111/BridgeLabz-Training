@@ -1,0 +1,102 @@
+body {
+    font-family: -apple-system, Segoe UI, Roboto, sans-serif;
+    background: #f4f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    width: 320px;
+}
+
+h1 {
+    color: #2d2d2d;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.6rem;
+    background: #4a6cf7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3a5ce0;
+}
+
+a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #4a6cf7;
+    text-decoration: none;
+}
+
+.greeting-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    text-align: left;
+}
+
+.greeting-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+    font-size: 0.9rem;
+}
+
+.greeting-list a {
+    margin-top: 0;
+    color: #2d2d2d;
+    text-decoration: none;
+}
+
+.actions {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.actions form {
+    display: inline;
+}
+
+.link-btn {
+    background: none;
+    border: none;
+    color: #e05252;
+    cursor: pointer;
+    padding: 0;
+    width: auto;
+    font-size: 0.85rem;
+}

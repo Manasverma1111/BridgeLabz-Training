@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Greeting</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <div class="card">
+        <h1>Edit Greeting</h1>
+
+        <!-- UPDATE -->
+        <form th:action="@{/greetings/{id}(id=${greeting.id})}" method="post">
+            <input type="text" name="name" th:value="${greeting.name}" required>
+            <input type="text" name="message" th:value="${greeting.message}" required>
+            <button type="submit">Save changes</button>
+        </form>
+
+        <a th:href="@{/}">&larr; Cancel</a>
+    </div>
+</body>
+</html>

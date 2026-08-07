@@ -1,0 +1,4 @@
+com\example\greetings\Greeting.class
+com\example\greetings\GreetingsApplication.class
+com\example\greetings\GreetingController.class
+com\example\greetings\GreetingRepository.class
