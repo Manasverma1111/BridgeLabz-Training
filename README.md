@@ -191,4 +191,63 @@ Built a simple Spring Boot MVC application that accepts a user's name and displa
   - `GET /` – Displays a form (`index.html`) to enter a name.
   - `GET /greeting` – Reads the `name` parameter and displays a personalized greeting (`greeting.html`).
 - Used Thymeleaf templates to render dynamic content.
-- Gained hands-on experience with the complete Spring MVC request flow.
+- Gained hands-on experience with the complete Spring MVC request flow
+
+## Day-06: Spring MVC CRUD Operations
+
+### 📚 Topics Covered
+
+- Spring MVC Architecture
+  - DispatcherServlet
+  - Controllers
+  - Views
+- Request Mapping and Handling in Spring MVC
+- CRUD Operations in Spring MVC
+  - Create
+  - Read
+  - Update
+  - Delete
+- Form Handling using Spring MVC
+- Request Parameters and Path Variables
+- Model and View Data Handling
+- Thymeleaf Templates
+- Database Integration with Spring MVC
+
+### 🚀 Project: My Greetings App – Complete CRUD
+
+Enhanced the **My Greetings App** to support complete **CRUD (Create, Read, Update, Delete)** functionality for managing greetings.
+
+### Key Concepts Practiced
+
+- **DispatcherServlet** – Front controller that receives incoming requests and routes them to the appropriate controller.
+- **Controllers** – Handle HTTP requests and coordinate application logic.
+- **Views (Thymeleaf)** – Render dynamic HTML pages and display application data.
+- **Request Mapping** – Maps HTTP requests to specific controller methods.
+- **`@GetMapping`** – Handles HTTP GET requests.
+- **`@PostMapping`** – Handles HTTP POST requests.
+- **`@PathVariable`** – Extracts values from the URL path.
+- **`@RequestParam`** – Retrieves parameters from the request.
+- **Model** – Transfers data from the controller to the view.
+- **CRUD** – Implemented Create, Read, Update, and Delete operations.
+
+### 💻 My Greetings App
+
+Completed the **My Greetings App** with all four CRUD operations:
+
+- **Create** – Add a new greeting.
+- **Read** – Display all saved greetings.
+- **Update** – Edit and update an existing greeting.
+- **Delete** – Remove a greeting from the application.
+
+### 🔄 Request Flow
+
+**Client Request → DispatcherServlet → Controller → Service/Repository → Database → Controller → Model → Thymeleaf View → Response**
+
+### Key Concepts Practiced
+
+- Completed the **My Greetings App** using Spring MVC.
+- Implemented all four CRUD operations.
+- Created request mappings for different application actions.
+- Used Thymeleaf forms for creating and updating greetings.
+- Used `@PathVariable` and `@RequestParam` for handling request data.
+- Connected the Spring MVC application with the database for persistent data management.
