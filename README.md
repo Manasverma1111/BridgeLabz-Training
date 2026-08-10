@@ -251,3 +251,78 @@ Completed the **My Greetings App** with all four CRUD operations:
 - Used Thymeleaf forms for creating and updating greetings.
 - Used `@PathVariable` and `@RequestParam` for handling request data.
 - Connected the Spring MVC application with the database for persistent data management.
+
+# Day-07: Spring Boot REST API with JPA & H2
+
+### 📚 Topics Covered
+
+- Spring Boot REST API
+- RESTful CRUD Operations
+- Spring Data JPA & Hibernate
+- Entity, Repository, Service & Controller layers
+- DTO Pattern
+- Bean Validation
+- Custom & Global Exception Handling
+- H2 In-Memory Database
+- H2 Database Console
+- Database Indexing & Unique Constraints
+- Spring Boot Actuator
+- HikariCP Connection Pool
+
+### 🚀 Project: Contacts Management REST API
+
+Built a **Contacts Management REST API** using Spring Boot, Spring Data JPA, Hibernate, and H2 Database.
+
+### Key Concepts Practiced
+
+- Implemented complete **CREATE and READ operations** using `GET`, `POST`.
+- Followed layered architecture: **Controller → Service → Repository → Database**.
+- Used **DTOs** for request and response data.
+- Applied **Bean Validation** for input validation.
+- Implemented **custom exceptions** and centralized exception handling.
+- Configured **H2 Database** with H2 Console for database management.
+- Added **indexes and unique constraints** for better performance and data integrity.
+- Integrated **Spring Boot Actuator** for application monitoring.
+- Implemented **Global Exception Handling**.
+
+### Project Structure
+```
+contacts_app/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── org/
+│   │   │       ├── example/
+│   │   │           ├── contacts_app/
+│   │   │               ├── controller/
+│   │   │               │   └── ContactController.java
+│   │   │               ├── dto/
+│   │   │               │   ├── ContactRequestDTO.java
+│   │   │               │   └── ContactResponseDTO.java
+│   │   │               ├── entity/
+│   │   │               │   └── Contact.java
+│   │   │               ├── exception/
+│   │   │               │   ├── ContactAlreadyExistsException.java
+│   │   │               │   ├── ContactNotFoundException.java
+│   │   │               │   ├── ErrorResponse.java
+│   │   │               │   └── GlobalExceptionHandler.java
+│   │   │               ├── repository/
+│   │   │               │   └── ContactRepository.java
+│   │   │               ├── service/
+│   │   │               │   ├── ContactService.java
+│   │   │               │   └── ContactServiceImpl.java
+│   │   │               └── ContactsAppApplication.java
+│   │   ├── resources/
+│   │       ├── static/
+│   │       ├── templates/
+│   │       └── application.properties
+│   ├── test/
+│       ├── java/
+│           ├── org/
+│               ├── example/
+│                   ├── contacts_app/
+│                       └── ContactsAppApplicationTests.java
+├── mvnw
+├── mvnw.cmd
+└── pom.xml
+```
