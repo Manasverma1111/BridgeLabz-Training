@@ -326,3 +326,22 @@ contacts_app/
 ├── mvnw.cmd
 └── pom.xml
 ```
+
+## Day-08: Spring Boot Contacts App – Complete CRUD
+
+### 📚 Topics Covered
+
+- Built a Contacts REST API using Spring Boot
+- H2 Database integration with JPA/Hibernate
+- DTO, Service, Repository and Controller layers
+- Lombok and Builder Pattern
+- Bean Validation and Exception Handling
+- H2 Console and Actuator integration
+- Tested REST APIs using Postman
+
+### 🔄 CRUD Operations
+
+- **Create** – Add a new contact with name, phone number and email.
+- **Read** – Fetch all contacts or fetch a specific contact by ID.
+- **Update** – Modify the details of an existing contact using its ID.
+- **Delete** – Remove an existing contact using its ID.
