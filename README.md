@@ -345,3 +345,20 @@ contacts_app/
 - **Read** – Fetch all contacts or fetch a specific contact by ID.
 - **Update** – Modify the details of an existing contact using its ID.
 - **Delete** – Remove an existing contact using its ID.
+
+## Spring Boot College Management App - Complete CRUD
+
+### 📚 Topics Covered
+
+- Created a Spring Boot REST API for **Student** and **Faculty** management.
+- Implemented complete **CRUD operations**:
+  - Create
+  - Read
+  - Update
+  - Delete
+- Connected Spring Boot with **MySQL** using Spring Data JPA.
+- Created Entity, Repository, Service, and Controller layers.
+- Implemented custom JPA queries for:
+  - Maximum salary from each department.
+  - Faculty earning more than their department's average salary.
+- Tested REST APIs using Postman.
