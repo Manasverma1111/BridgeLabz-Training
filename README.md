@@ -327,7 +327,7 @@ contacts_app/
 └── pom.xml
 ```
 
-## Day-08: Spring Boot Contacts App – Complete CRUD
+# Day-08: Spring Boot Contacts App – Complete CRUD
 
 ### 📚 Topics Covered
 
