@@ -346,7 +346,7 @@ contacts_app/
 - **Update** – Modify the details of an existing contact using its ID.
 - **Delete** – Remove an existing contact using its ID.
 
-## Spring Boot College Management App - Complete CRUD
+# Spring Boot College Management App - Complete CRUD
 
 ### 📚 Topics Covered
 
