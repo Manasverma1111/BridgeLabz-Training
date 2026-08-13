@@ -331,13 +331,11 @@ contacts_app/
 
 ### 📚 Topics Covered
 
-- Built a Contacts REST API using Spring Boot
 - H2 Database integration with JPA/Hibernate
 - DTO, Service, Repository and Controller layers
 - Lombok and Builder Pattern
 - Bean Validation and Exception Handling
 - H2 Console and Actuator integration
-- Tested REST APIs using Postman
 
 ### 🔄 CRUD Operations
 
@@ -358,7 +356,41 @@ contacts_app/
   - Delete
 - Connected Spring Boot with **MySQL** using Spring Data JPA.
 - Created Entity, Repository, Service, and Controller layers.
+- Tested REST APIs using Postman.
+
+# Day-09: Spring Boot Contacts App – Complete CRUD, Custom Query
+
+## 📚 Topics Covered
+
+- Auto Configuration
+- Starter Dependencies
+  - spring-boot-starter-web
+  - spring-boot-starter-data-jpa
+  - spring-boot-starter-security
+  - spring-boot-starter-validation
+  - spring-boot-starter-actuator
+  - spring-boot-starter-test
+- Embedded Servers (tomcat, jetty, netty)
+- Spring Controller
+
+## Project
+
+- Built a Contacts REST API using Spring Boot
+- H2 Database integration with JPA/Hibernate
+- DTO, Service, Repository and Controller layers
+- Lombok and Builder Pattern
+- Bean Validation and Exception Handling
+- H2 Console and Actuator integration
+- Tested REST APIs using Postman
 - Implemented custom JPA queries for:
   - Maximum salary from each department.
   - Faculty earning more than their department's average salary.
-- Tested REST APIs using Postman.
+
+# Day-10: Spring Boot Employee Payroll App
+
+## 📚 Topics Covered
+
+- Dependency Injection
+- Spring Boot key Features
+- H2 Database Integration and Configuration
+- Circular Dependency
