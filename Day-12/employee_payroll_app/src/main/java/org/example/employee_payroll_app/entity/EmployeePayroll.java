@@ -21,6 +21,9 @@ public class EmployeePayroll {
     @Column(nullable = false)
     private String empName;
 
+    @Column(nullable = false, unique = true)
+    private String email;
+
     @Column(nullable = false)
     private String dept;
 
