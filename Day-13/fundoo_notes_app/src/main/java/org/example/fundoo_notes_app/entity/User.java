@@ -22,9 +22,9 @@ public class User {
 
     // Day 14: Authorization - every user has a role, embedded as a claim in
     // the JWT and mapped to a Spring Security GrantedAuthority.
-//    @Enumerated(EnumType.STRING)
-//    @Column(nullable = false)
-//    private Role role = Role.USER;
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private Role role = Role.USER;
 
     // Day 14: JPA deep-dive - real entity relationship instead of a raw
     // userId foreign-key field. cascade+orphanRemoval keeps notes in sync
@@ -68,13 +68,13 @@ public class User {
         this.name = name;
     }
 
-//    public Role getRole() {
-//        return role;
-//    }
-//
-//    public void setRole(Role role) {
-//        this.role = role;
-//    }
+    public Role getRole() {
+        return role;
+    }
+
+    public void setRole(Role role) {
+        this.role = role;
+    }
 //
 //    public List<Note> getNotes() {
 //        return notes;
