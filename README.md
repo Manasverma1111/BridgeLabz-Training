@@ -394,3 +394,86 @@ contacts_app/
 - Spring Boot key Features
 - H2 Database Integration and Configuration
 - Circular Dependency
+
+# Day-11: Spring Boot Employee Payroll App
+
+- Spring JPA Configuration
+- Spring JDBC Configuration
+- Created Create & Read REST end points
+- Create Employee by POST Request
+- Get All Employee Details by GET Request
+- Get Employee by Id
+
+## 📚 Topics Covered
+
+- Spring REST API — service-layer design
+- Spring JPA — repositories and entity mapping
+- Spring JDBC — template-based data access
+- Comparison of hand-written JDBC, JdbcTemplate, and Spring Data JPA
+- Rebuilding the Employee Payroll App using Spring Data JPA
+
+# Day-12: Spring Boot Employee Payroll App - Complete CRUD Operations
+
+- Complete CRUD Operations end-to-end
+- Global Exception Handling
+- dto layer with request and response
+- REST end points testing with Postman
+
+## 📚 Topics Covered
+
+- Spring Bean Scopes — singleton, prototype, request, session
+- Logging in Spring Boot applications
+- Maven — dependency resolution and build lifecycle
+- Postman — collections, environments, variables, chaining and assertions
+
+# Day-13: Spring Boot Fundoo Notes App
+
+## Spring Security & JWT Authentication
+
+- `SecurityConfig`, `JwtUtil`, `User` entity/repository, `UserService`
+  (register/login with `BCryptPasswordEncoder`), `AuthController` — matches
+  the original Day 13 document.
+- **Added (missing from the source material):**
+  - `JwtAuthenticationFilter` — the document defines `JwtUtil` and a
+    `SecurityFilterChain` requiring authentication, but never wires the two
+    together. Without this filter, every protected request would 401 even
+    with a valid token.
+  - Password recovery (`PasswordResetToken`, `PasswordResetService`,
+    `/auth/forgot-password`, `/auth/reset-password`) — the document
+    describes this pattern in prose and explicitly marks it out of scope.
+  - Global exception handling (`GlobalExceptionHandler`) and bean validation
+    on all request DTOs.
+
+## 📚 Topics Covered
+
+- Spring Boot recap; Spring Security fundamentals
+- Authentication vs Authorization
+- SecurityFilterChain and endpoint protection
+- JWT structure, generation and validation
+- BCrypt password hashing
+- Fundoo Notes App User Management
+
+# Day-14: Spring Boot Fundoo Notes App
+
+## Authorization & JPA for Notes Management
+
+- **Authorization module:** `Role` enum (`USER`/`ADMIN`) on `User`, embedded
+  as a `role` claim in the JWT. `JwtAuthenticationFilter` turns that claim
+  into a `ROLE_*` Spring Security authority. `@EnableMethodSecurity` is on,
+  and `AdminController` (`GET /admin/users`) demonstrates
+  `@PreAuthorize("hasRole('ADMIN')")` on top of plain authentication.
+- **JPA deep-dive:** `Note` now has a real `@ManyToOne User user` (was a raw
+  `userId` int), and `User` has the matching `@OneToMany` back-reference
+  with `cascade`/`orphanRemoval`.
+- **Notes Management:** create/read/update/delete on `NoteController`.
+
+## 📚 Topics Covered
+
+- Authentication vs Authorization — secure token-based verification
+- OncePerRequestFilter and JWT validation
+- SecurityContextHolder and authenticated identity
+- IDOR and why client-supplied user IDs must not determine ownership
+- @ManyToOne and @OneToMany entity relationships
+- mappedBy and ownership of the foreign key
+- LAZY vs EAGER fetching and LazyInitializationException
+- Ownership-scoped Notes Management
