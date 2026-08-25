@@ -453,7 +453,7 @@ contacts_app/
 - BCrypt password hashing
 - Fundoo Notes App User Management
 
-# Day-14: Spring Boot Fundoo Notes App
+# Day-14: Spring Boot Fundoo Notes App - Authorization Module
 
 ## Authorization & JPA for Notes Management
 
@@ -477,3 +477,87 @@ contacts_app/
 - mappedBy and ownership of the foreign key
 - LAZY vs EAGER fetching and LazyInitializationException
 - Ownership-scoped Notes Management
+
+# Day-15: Spring Boot Fundoo Notes App - Organisation Module
+
+## Organisation Modules: Pin/Archive/Trash, Search & Tags
+- **Pin/Archive:** `PATCH /notes/{id}/pin`, `PATCH /notes/{id}/archive`.
+- **Trash module:** `DELETE /notes/{id}` now soft-deletes (moves to trash)
+  instead of removing the row; `GET /notes/trash`, `PATCH
+  /notes/{id}/restore`, and `DELETE /notes/{id}/permanent` (empty trash for
+  one note) round out the flow.
+- **Search & Filter module:** `GET /notes/search?keyword=&pinned=&archived=`
+  — a single `@Query` with optional keyword/pinned/archived filters.
+- **Tags/Labels module:** `Tag` entity, `TagController` (`/tags`
+  create/list/delete), many-to-many `Note`↔`Tag` relationship; attach tags
+  to a note via `tagIds` on `NoteRequest`.
+
+## 📚 Topics Covered
+
+- Designing organisation-oriented REST endpoints
+- Pin, Archive and Trash state management
+- State transitions and Service-layer business rules
+- State-based filtering with query parameters
+- Search using multiple optional filters
+- Spring Data JPA Specification
+- @ManyToMany relationship between Notes and Tags
+- Tag management and relationship-based derived queries
+
+# Day-16: Spring Boot Fundoo Notes App - Reminder & Notification Module
+
+## JMS & Redis Caching
+- **Reminder & Notification module (via JMS):** `Reminder` entity,
+  `ReminderController` (`POST /notes/{noteId}/reminders`, `GET
+  /reminders`). `ReminderService` polls due reminders every minute
+  (`@Scheduled`) and hands them to `ReminderProducer`, which publishes onto
+  a JMS queue; `ReminderListener` consumes the queue asynchronously and
+  marks the reminder sent — the actual "send" happens off the request
+  thread. Runs on an **embedded Artemis broker** so no external JMS server
+  is required locally.
+- **Token/user caching via Redis:** `CacheConfig` enables Spring's cache
+  abstraction backed by Redis; `UserService.getById` is `@Cacheable`
+  (`@CacheEvict` helper included) so repeated user lookups skip the
+  database. **Requires a running Redis server.**
+
+## 📚 Topics Covered
+
+- JMS and asynchronous, non-blocking background processing
+- Producer / Queue / Consumer model
+- JmsTemplate and @JmsListener
+- When JMS is appropriate and when synchronous processing is required
+- Redis as a shared in-memory key-value store
+- JWT validation caching
+- Cache expiration and token expiration
+- Fundoo Notes Reminder / Notification module
+
+# Day-17: Spring Boot Fundoo Notes App - File Attachment Module
+
+## RabbitMQ & Spring Batch (Excel)
+- **File Attachment module (optional):** `Attachment` entity,
+  `AttachmentController` — multipart upload (`POST
+  /notes/{noteId}/attachments`), listing, download, and delete. Files are
+  stored on local disk under `app.upload-dir`.
+- **RabbitMQ:** `RabbitConfig` declares a topic exchange/queue/binding;
+  `NoteEventPublisher` fires a `note.created` event on every note creation,
+  consumed asynchronously by `NoteEventListener` — demonstrates
+  non-blocking background processing outside the request thread.
+  **Requires a running RabbitMQ server.**
+- **Excel import/export:** `NoteExcelService` (Apache POI) backs `GET
+  /notes/export` (download an `.xlsx` of active notes) and `POST
+  /notes/import` (upload an `.xlsx`, one note created per row). A full
+  Spring Batch `Job`/`Step` was skipped as overkill for a per-request,
+  single-user dataset — swap this in if bulk/offline batch processing with
+  checkpointing is needed later.
+
+## 📚 Topics Covered
+
+- RabbitMQ and AMQP fundamentals
+- JMS specification vs RabbitMQ broker/protocol
+- Exchange, Binding and Queue routing
+- Direct, Topic and Fanout exchanges
+- RabbitTemplate and @RabbitListener
+- Spring Batch Job, Step and Chunk
+- ItemReader, ItemProcessor and ItemWriter
+- Excel import using Apache POI and Spring Batch
+- Excel export using Apache POI
+- Optional File Attachment Module
