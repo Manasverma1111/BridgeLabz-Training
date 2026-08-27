@@ -561,3 +561,54 @@ contacts_app/
 - Excel import using Apache POI and Spring Batch
 - Excel export using Apache POI
 - Optional File Attachment Module
+
+# Day-18: Spring Boot Fundoo Notes App
+
+## REST API Patterns, Global Exception Handling, AOP & Spring Cloud
+- **Global exception handling:** `GlobalExceptionHandler` (added under Day
+  13, listed here since the roadmap calls it out again) — clean JSON for
+  validation errors, `IllegalArgumentException`, `ResourceNotFoundException`,
+  and unexpected errors.
+- **DTO ↔ Entity mapping:** every entity has a matching request/response DTO
+  (`NoteRequest`/`NoteResponse`, `TagRequest`/`TagResponse`, etc.) —
+  controllers never leak JPA entities directly.
+- **AOP:** `LoggingAspect` wraps every controller and service method with
+  `@Around` advice, logging method signature, duration, and any thrown
+  exception — a cross-cutting concern applied uniformly instead of
+  hand-added log lines.
+- **Spring Cloud (introductory):** the Spring Cloud BOM
+  (`spring-cloud-dependencies`) is imported in `pom.xml` for dependency
+  management, matching the roadmap's "Introduction to Spring Cloud." No
+  Spring Cloud starter is pulled in yet — add one (e.g.
+  `spring-cloud-starter-config`) when centralized configuration or service
+  discovery is actually needed.
+- **Consolidate and harden:** logging (AOP), error handling, and
+  authorization now apply across every module added in Days 14–17, not just
+  the original Day 13 auth endpoints.
+
+## 📚 Topics Covered
+
+- REST API design patterns and Spring scopes revisited
+- DTO to Entity and Entity to DTO mapping
+- Global exception handling
+- Custom exceptions and consistent error responses
+- Logging best practices
+- AOP and pointcut expressions
+- Spring proxy mechanism
+- @Transactional as an AOP example
+- Introduction to Spring Cloud
+- Full Fundoo Notes hardening pass
+
+# Day-19: Spring Boot Fundoo Notes App - Monolith vs Microservices & Spring Boot Microservices
+
+## 📚 Topics Covered
+
+- Monolith vs Microservices trade-offs
+- Identifying service boundaries in the Fundoo Notes App
+- Spring Boot microservice project structure
+- Separate applications, ports and databases
+- Inter-service communication with RestTemplate
+- Replacing JPA relationships across service boundaries
+- API Gateway and request routing
+- Beginning the User Management + Auth service decomposition
+
