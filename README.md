@@ -612,3 +612,19 @@ contacts_app/
 - API Gateway and request routing
 - Beginning the User Management + Auth service decomposition
 
+# Day-20: Spring Boot Fundoo Notes App - Monolith vs Microservices & Spring Boot Microservices
+
+## 📚 Topics Covered
+
+- Why hardcoded service addresses fail
+- Eureka as a Service Registry
+- Registering Spring Boot services with Eureka
+- Service lookup by logical name
+- @LoadBalanced RestTemplate
+- Multiple service instances and load balancing
+- Completing the microservices decomposition
+- Eureka-aware API Gateway
+- Reminder Service as an independent service
+- Tracing the complete 20-day architecture
+- Final end-to-end microservices demo
+
